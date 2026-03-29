@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite preview --port 8080 --host 0.0.0.0"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
