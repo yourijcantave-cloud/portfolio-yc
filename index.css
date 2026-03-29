@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-anthracite: #2C2C2C;
+  --color-cloud: #F5F5F5;
+  --color-gold: #D4AF37;
+  --color-gold-light: #F3E5AB;
+  --color-gold-dark: #B4941F;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Lato", sans-serif;
+
+  --background-image-gold-gradient: linear-gradient(135deg, #D4AF37 0%, #F3E5AB 50%, #D4AF37 100%);
+  --background-image-noise: url('https://grainy-gradients.vercel.app/noise.svg');
+}
+
+@layer base {
+  body {
+    @apply bg-anthracite text-cloud overflow-x-hidden font-sans;
+  }
+}
+
+@layer components {
+  .gold-text-gradient {
+    @apply bg-clip-text text-transparent bg-gold-gradient;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
