@@ -5,12 +5,17 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
-    return {
+   return {
       server: {
-        port: 3000,
+        port: 8080,
+        host: '0.0.0.0',
+      },
+      preview: {
+        port: 8080,
         host: '0.0.0.0',
       },
       plugins: [react(), tailwindcss()],
+// ... keep the rest of your file (define, resolve, etc.) the same
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
         'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
