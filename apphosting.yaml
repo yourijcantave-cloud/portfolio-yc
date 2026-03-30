@@ -1,9 +1,0 @@
-# This tells Firebase exactly how to build YCP
-kind: "AppStack"
-schemaVersion: "v1"
-buildConfig:
-  # This forces the build to ignore those TypeScript errors
-  buildArgs:
-    - "NEXT_TELEMETRY_DISABLED=1"
-  # We tell Firebase to use a custom build command that bypasses strict checks
-  command: "npm run build || next build --no-lint"
