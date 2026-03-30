@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // This tells the robot to ignore tiny type errors and keep building
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -9,5 +8,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
-
+export default nextConfig; // Change "module.exports" to this!
