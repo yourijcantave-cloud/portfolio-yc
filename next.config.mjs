@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
+  output: 'export', // <--- ADD THIS LINE
+  images: {
+    unoptimized: true, // Required for static export
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true },
 };
 
-export default nextConfig; // Change "module.exports" to this!
+export default nextConfig;
