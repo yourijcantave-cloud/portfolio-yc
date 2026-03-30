@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { PROJECTS } from '../constants';
-import { ... } from '../types';
+import type { MyType } from './types';
 import { ArrowLeft, X, Maximize2, Play, ExternalLink, RefreshCw, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
 import { useLanguage } from '../contexts/LanguageContext';
