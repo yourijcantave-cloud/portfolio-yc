@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { TRANSLATIONS } from '../../src/translations';
+import { TRANSLATIONS } from '../../translations';
 
 const Overview: React.FC = () => {
   const { language } = useLanguage();
