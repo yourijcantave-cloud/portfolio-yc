@@ -33,7 +33,7 @@ const Intro: React.FC<IntroProps> = ({ onComplete }) => {
           className="relative z-10 w-full h-full flex items-center justify-center p-4"
         >
           <img 
-            src="https://storage.googleapis.com/ycp_portfolio-website/New%20YCP%204%20Points%20Gold%20.svg"
+            src="https://storage.googleapis.com/2026-ycp_portfolio-website/New%20YCP%204%20Points%20Gold%20.svg"
             alt="YC Logo"
             className="w-full h-full object-contain drop-shadow-[0_0_25px_rgba(212,175,55,0.6)]"
             loading="lazy"
