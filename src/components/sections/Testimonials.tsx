@@ -21,7 +21,7 @@ const Testimonials: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://storage.googleapis.com/ycp_portfolio-website/Vision%20background.jpg" 
+          src="https://storage.googleapis.com/2026-ycp_portfolio-website/Vision%20background.jpg" 
           alt="Abstract Gold Background" 
           className="w-full h-full object-cover opacity-40" 
           loading="lazy"
