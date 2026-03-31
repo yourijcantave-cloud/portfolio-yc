@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { PROJECTS } from '../../constants';
 import { GalleryType, Project } from '../../types';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { TRANSLATIONS } from '../../src/translations';
+import { TRANSLATIONS } from '../../translations';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ProjectLightbox from '../ProjectLightbox';
