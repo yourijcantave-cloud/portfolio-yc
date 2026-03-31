@@ -1,3 +1,5 @@
 kind: "framework"
 runtime: "nodejs22"
-
+runConfig:
+  basePath: "/"
+  distPath: "dist"
