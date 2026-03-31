@@ -3,7 +3,7 @@ import { motion, Variants } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { TRANSLATIONS } from '../../src/translations';
+import { TRANSLATIONS } from '../../translations';
 
 interface CategoryItem {
   id: string;
