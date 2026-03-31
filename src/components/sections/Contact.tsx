@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { TRANSLATIONS } from '../../src/translations';
+import { TRANSLATIONS } from '../../translations';
 import { Mail, Linkedin, Globe } from 'lucide-react';
 
 const Contact: React.FC = () => {
