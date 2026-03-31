@@ -10,10 +10,12 @@ export default defineConfig(({ mode }) => {
             port: 8080,
             host: '0.0.0.0',
         },
-        preview: {
+          preview: {
             port: 8080,
-            host: '0.0.0.0',
+            strictPort: true,
+            host: true
         },
+
         plugins: [react(), tailwindcss()],
         define: {
             'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
