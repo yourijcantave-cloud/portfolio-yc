@@ -44,7 +44,7 @@ const Navigation: React.FC = () => {
   const LogoIcon = () => (
     <div className="w-full h-full relative flex items-center justify-center">
         <img 
-            src="https://storage.googleapis.com/ycp_portfolio-website/New%20YC%204%20Points%20Gold%20Logo.svg" 
+            src="https://storage.googleapis.com/2026-ycp_portfolio-website/New%20YC%204%20Points%20Gold%20Logo.svg" 
             alt="YC Logo" 
             className="w-full h-full object-contain"
             loading="lazy"
