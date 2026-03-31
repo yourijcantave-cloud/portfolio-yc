@@ -120,7 +120,7 @@ const Overview: React.FC = () => {
           className="-mb-6 md:-mb-14 w-72 h-72 md:w-[36rem] md:h-[36rem]"
         >
            <img 
-             src="https://storage.googleapis.com/ycp_portfolio-website/New%20YC%204%20Points%20Gold%20Logo.svg" 
+             src="https://storage.googleapis.com/2026-ycp_portfolio-website/New%20YC%204%20Points%20Gold%20Logo.svg" 
              alt="YC Logo" 
              className="w-full h-full object-contain drop-shadow-[0_0_20px_rgba(212,175,5,0.3)]" 
              loading="lazy"
