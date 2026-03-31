@@ -2,13 +2,12 @@
   "name": "youri-cantave-portfolio",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "lint": "eslint .",
     "preview": "vite preview",
     "start": "npx --yes serve -s dist -l 8080"
-    "lint": "echo 'Skipping lint checks'"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
