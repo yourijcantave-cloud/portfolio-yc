@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "vite preview --port 8080 --host 0.0.0.0",
+    "start": "npx --yes serve -s dist -l 8080"
     "lint": "echo 'Skipping lint checks'"
   },
   "dependencies": {
