@@ -5,7 +5,7 @@ import type { MyType } from './types';
 import { ArrowLeft, X, Maximize2, Play, ExternalLink, RefreshCw, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
 import { useLanguage } from '../contexts/LanguageContext';
-import { TRANSLATIONS } from '../src/translations';
+import { TRANSLATIONS } from '../translations';
 
 import ProjectLightbox from '../components/ProjectLightbox';
 
