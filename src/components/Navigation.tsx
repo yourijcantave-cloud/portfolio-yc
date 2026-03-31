@@ -3,7 +3,7 @@ import { Menu, X, Home, Briefcase, User, Mail, FolderOpen, Star } from 'lucide-r
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
-import { TRANSLATIONS } from '../src/translations';
+import { TRANSLATIONS } from '../translations';
 
 const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
