@@ -105,12 +105,12 @@ const PortfolioHub: React.FC = () => {
 
   const getImg = (id: string) => {
     switch(id) {
-      case 'photo-editing': return 'https://storage.googleapis.com/ycp_portfolio-website/Photo%20Edits.png';
-      case 'video-editing': return 'https://storage.googleapis.com/ycp_portfolio-website/Video%20Edits%201.png';
-      case 'branding': return 'https://storage.googleapis.com/ycp_portfolio-website/Branding.png';
-      case 'illustrative': return 'https://storage.googleapis.com/ycp_portfolio-website/Illustrations.png';
-      case 'photography': return 'https://storage.googleapis.com/ycp_portfolio-website/Photography.png';
-      case 'podcasts': return 'https://storage.googleapis.com/ycp_portfolio-website/Podcast.png';
+      case 'photo-editing': return 'https://storage.googleapis.com/2026-ycp_portfolio-website/Photo%20Edits.png';
+      case 'video-editing': return 'https://storage.googleapis.com/2026-ycp_portfolio-website/Video%20Edits%201.png';
+      case 'branding': return 'https://storage.googleapis.com/2026-ycp_portfolio-website/Branding.png';
+      case 'illustrative': return 'https://storage.googleapis.com/2026-ycp_portfolio-website/Illustrations.png';
+      case 'photography': return 'https://storage.googleapis.com/2026-ycp_portfolio-website/Photography.png';
+      case 'podcasts': return 'https://storage.googleapis.com/2026-ycp_portfolio-website/Podcast.png';
       default: return '';
     }
   };
