@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, RefreshCw, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Project, GalleryType } from '../types';
 import { useLanguage } from '../contexts/LanguageContext';
-import { TRANSLATIONS } from '../src/translations';
+import { TRANSLATIONS } from '../translations';
 
 interface ProjectLightboxProps {
   project: Project | null;
