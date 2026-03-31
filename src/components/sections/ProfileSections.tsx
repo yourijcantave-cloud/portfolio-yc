@@ -108,7 +108,7 @@ export const VisionSection: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://storage.googleapis.com/ycp_portfolio-website/Vision%20background.jpg" 
+          src="https://storage.googleapis.com/2026-ycp_portfolio-website/Vision%20background.jpg" 
           alt="Vision Background Abstract" 
           className="w-full h-full object-cover opacity-40" 
           loading="lazy"
@@ -346,11 +346,11 @@ export const ProcessSection: React.FC = () => {
   const steps = t.steps.map((step, i) => ({
     ...step,
     image: [
-      'https://storage.googleapis.com/ycp_portfolio-website/Research%20%26%20Inspiration.png',
-      'https://storage.googleapis.com/ycp_portfolio-website/Idea%20Development.png',
-      'https://storage.googleapis.com/ycp_portfolio-website/Design%20%26%20Execution.png',
-      'https://storage.googleapis.com/ycp_portfolio-website/Review%20%26%20Improvement.png',
-      'https://storage.googleapis.com/ycp_portfolio-website/Delivery.png'
+      'https://storage.googleapis.com/2026-ycp_portfolio-website/Research%20%26%20Inspiration.png',
+      'https://storage.googleapis.com/2026-ycp_portfolio-website/Idea%20Development.png',
+      'https://storage.googleapis.com/2026-ycp_portfolio-website/Design%20%26%20Execution.png',
+      'https://storage.googleapis.com/2026-ycp_portfolio-website/Review%20%26%20Improvement.png',
+      'https://storage.googleapis.com/2026-ycp_portfolio-website/Delivery.png'
     ][i]
   }));
 
