@@ -14,7 +14,7 @@ import {
   Award
 } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { TRANSLATIONS } from '../../src/translations';
+import { TRANSLATIONS } from '../../translations';
 import { TECH_STACK } from '../../constants';
 
 // Section 01: About Me (Fade Up Reveal)
